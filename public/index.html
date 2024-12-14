@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultoria Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WEBGreen ;)</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#trajetoria">Trajetória</a></li>
+                <li><a href="#ofercemos">O que oferecemos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <section>  
+            <img src="consultoriaweb3.png" alt="Imagem de Consultoria Web3">
+        </section>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo(a) à Consultoria WEBGreen</h2>
+            <p>Oferecemos soluções inovadoras para a sua empresa!</p>
+        </section>
+
+        <section id="trajetoria" class="trajetoria">
+            <h2>Nossa Trajetória</h2>
+            <p>Estamos há anos no mercado, ajudando empresas a crescerem e se destacarem na era digital.</p>
+        </section>
+
+        <section id="ofercemos">
+            <h2>O que oferecemos</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="consultoriaWeb.jpg" alt="Serviço 1">
+                    <p>Soluções personalizadas para o seu negócio. utilize dos melhores serviços para criar sua página na web!</p>
+                </div>
+                <div class="card">
+                    <img src="consultoriaWeb2.jpg" alt="Serviço 2">
+                    <p>Consultoria especializada em Web3. Só a WEBGreen pode te dar 100% de garantia de segurança cibernetica!</p>
+                </div>
+                <div class="card">
+                    <img src="consultoriaweb4.jpg" alt="">
+                    <p>Não deixe para depois, entre em contato!</p>
+                </div>
+            </div>
+
+            <!-- Tabela de Serviços -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Desenvolvimento de Sites</td>
+                        <td>Criamos sites responsivos e personalizados.</td>
+                    </tr>
+                    <tr>
+                        <td>Consultoria Blockchain</td>
+                        <td>Implementação de soluções em blockchain.</td>
+                    </tr>
+                    <tr>
+                        <td>Marketing Digital</td>
+                        <td>Estratégias para impulsionar sua marca.</td>
+                    </tr>
+                    <tr>
+                        <td>Segurança Cibernética</td>
+                        <td>Proteção para seus dados e sistemas.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Consultoria Web3. Todos os direitos reservados.</p>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
